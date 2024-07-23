@@ -1,0 +1,38 @@
+Project Description:
+---------------------
+
+VAS(VIRTUAL ACCOUNT SYSTEM)
+--------------------------
+
+It is a payment gateway application,This application mircroservice oriented orchiteture
+
+we have psp(paymet service provider) gateway it is centeral  entry point in my all microservices those microservices all travelling to
+psp server.
+
+In this product we have to signin using do login(it is own security login mechanisum)
+Once we logged in our application ,we have create outlets(outlets contain,our user information like name,email,phone no,address etc...
+
+when it is created outlet wehave to two ways to approvals
+
+self approval
+someone need to give approval(manager,admin)
+we have staus also like(pending,approved,decline..etc)
+we have many roles to authentication our application like  user,admin then we are giving 
+access based on the role give to access like read ,write,delete.
+
+Roles responsibility :
+--------------------
+
+I have implemented spring security and jwt
+I have written test cases using junit with Mockito
+I have implemented excel report generation
+I have implemented global excepton handling
+I have created new apis and integration with different source systems
+I have implemented schedulars those schedulars run some particular time(1hour,2hour automatically run and reading the data from wind scp fil and
+importing the data into the database.
+
+
+
+
+
+
